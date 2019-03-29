@@ -1,6 +1,6 @@
-# RESTD - Declaritive REST Client
+# RESTD - Declarative REST Client
 
-A very simple declaritive rest client using js decorators. 
+A very simple declarative rest client using js decorators. 
 
 ## Getting started
 

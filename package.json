@@ -1,7 +1,7 @@
 {
   "name": "restd",
-  "version": "1.0.5",
-  "description": "Declaritive rest client using decorators",
+  "version": "1.0.6",
+  "description": "Declarative rest client using decorators",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,13 @@
     "type" : "git",
     "url" : "https://github.com/DevNamedZed/restd.git"
   },
+  "keywords": [
+    "javascript",
+    "rest",
+    "declarative",
+    "rest-client",
+    "decorators"
+  ],
   "dependencies": {
     "axios": "^0.18.0",
     "qs": "^6.7.0"
