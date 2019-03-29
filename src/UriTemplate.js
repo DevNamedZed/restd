@@ -20,11 +20,11 @@ function createUriTemplate(value) {
                 index++;
             }
 
-            if (value[index] != '}'){
+            index++;
+            if (value[index] != '}') {
                 throw new Error('A } was expected.');
             }
 
-            index++;
             tokens.push({
                 type: TokenType.TemplateParameter,
                 value: value.substr(start + 1, length - 1)
@@ -74,6 +74,6 @@ class UriTemplate {
 
         return output;
     }
-} 
+}
 
 export { createUriTemplate }
