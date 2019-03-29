@@ -8,6 +8,10 @@
   },
   "author": "devnamedzed@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/DevNamedZed/restd.git"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "qs": "^6.7.0"
