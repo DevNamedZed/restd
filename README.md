@@ -2,6 +2,14 @@
 
 A very simple declaritive rest client using js decorators. 
 
+## Getting started
+
+Install the npm package and follow example and documentation below
+
+```
+npm i restd --save
+```
+
 ## Example
 
 Create a class and use methods of that class to declare methods of the API
