@@ -3,8 +3,7 @@
  * Allows for interception of the request and response of an API call.
  */
 export default class ApiCallHandler{
-    constructor(props){
-        super(props);
+    constructor(){
         if (this.constructor === ApiCallHandler) {
             throw new Error('Cannot instantiate ApiCallHandler directly.'); 
         }

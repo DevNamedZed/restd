@@ -1,6 +1,6 @@
 {
   "name": "restd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Declaritive rest client using decorators",
   "main": "./src/index.js",
   "scripts": {

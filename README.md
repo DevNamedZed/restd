@@ -1,6 +1,6 @@
 # RESTD - Declaritive REST Client
 
-A very simple declaritive rest client using js decorators. Use with legacy services that do not expose OpenAPI schema
+A very simple declaritive rest client using js decorators
 
 ## Example
 
