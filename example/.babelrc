@@ -1,3 +1,21 @@
 {
-    "presets": ["env", "stage-2"]
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": "current"
+                },
+                "shippedProposals": true
+            }
+        ]
+    ],
+    "plugins": [
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            }
+        ]
+    ]
 }

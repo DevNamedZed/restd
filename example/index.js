@@ -11,11 +11,11 @@ const destination = {
 }
 
 GoogleMapsClient.directions(
-    `${origin.latitude},${origin.longitude}`, 
+    `${origin.latitude},${origin.longitude}`,
     `${destination.latitude},${destination.longitude}`)
-.then(r => {
+    .then(r => {
         console.log(r)
-})
-.error(e => {
-    console.log(e)
-})
+    })
+    .error(e => {
+        console.log(e)
+    })

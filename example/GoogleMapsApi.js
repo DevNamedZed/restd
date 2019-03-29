@@ -1,4 +1,4 @@
-import { ApiGet, ApiPost, ApiDelete, ApiPut, ApiParameter } from "services/rest";
+import { ApiGet, ApiPost, ApiDelete, ApiPut, ApiParameter } from "restd";
 
 export default class GoogleMapsApi {
     @ApiPost(

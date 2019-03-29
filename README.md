@@ -7,7 +7,7 @@ A very simple declaritive rest client using js decorators. Use with legacy servi
 Create a class and use methods of that class to declare methods of the API
 
 ```
-import { ApiGet, ApiPost, ApiDelete, ApiPut, ApiParameter } from "rest";
+import { ApiGet, ApiPost, ApiDelete, ApiPut, ApiParameter } from "restd";
 
 export default class UserApi {
     @ApiGet(
